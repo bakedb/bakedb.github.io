@@ -1,0 +1,42 @@
+body {
+    font-family: "Patrick Hand", cursive;
+    margin: 40px;
+    background-color: #0a2579;
+    color: #ee62e9;
+}
+.widget {
+    border: 10px inset #095376;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 15px;
+    background-color: #b932b4;
+    color: #309edd;
+    display: inline-block;
+    vertical-align: top;
+}
+.nav_ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #b932b4;
+    border: 5px outset #309edd;
+}
+.nav_ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav_ul li a:hover {
+    background-color: #ee62e9;
+}
+.nav_ul li {
+    float: left;
+}
+nav {
+    text-decoration: wavy;
+    padding: 10px;
+    color: #309edd;
+}
