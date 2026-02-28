@@ -10,7 +10,7 @@ body {
     margin: 5px 0;
     border-radius: 15px;
     background-color: #b932b4;
-    color: #309edd;
+    color: #96d1f4;
     display: inline-block;
     vertical-align: top;
 }
@@ -39,4 +39,12 @@ nav {
     text-decoration: wavy;
     padding: 10px;
     color: #309edd;
+}
+#logoImage {
+    position: absolute;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
 }

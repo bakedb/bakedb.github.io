@@ -3,24 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>bkd</title>
-<!-- import fonts -->
+<title>bkd Homepage</title>
+<link rel="icon" href="/logo/white.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- nav bar -->
 <nav>
     <ul class="nav_ul">
         <li><a href="/index.html">Home</a></li>
+        <li><a href="/projects.html">Projects</a></li>
         <li><a href="/css_test.html">CSS Test Page</a></li>
     </ul>
 </nav>
-<h1>header</h1>
-<h2>header but smaller</h2>
-<p>body text <b>bold text</b> <i>italic text</i></p>
-<a href="https://example.com"><p class="widget">test</p></a>
+
+<img src="logo/hotpink.svg">
+
+<h1 id="dateString"><span class="material-symbols-outlined">volunteer_activism</span></h1>
+<script>
+const pastDate = new Date("2023-06-01");
+const currentDate = new Date();
+const dateString = currentDate.getFullYear() - pastDate.getFullYear();
+document.getElementById('dateString').innerHTML = `<span class="material-symbols-outlined">volunteer_activism</span> Supporting Open Source For ${dateString} years.`;
+</script>
+
+<a href="/projects.html"><div class="widget">
+    <h1>View Some Projects</h1>
+</div></a>
+
+
+<h2>Links:</h2>
+<a href="https://youtube.com/@thatbakedbeans"><div class="widget"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="50" height="50"></div>
+<a href="https://codeberg.org/bkd"><div class="widget"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Codeberg_logo.svg" width="50" height="50"></div>
+<a href="https://github.com/bakedb"><div class="widget"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" height="50"></div>
+<a href="https://osu.ppy.sh/users/38371673"><div class="widget"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Osu%21_logo_2024.png" width="50" height="50"></div>
+<a href="https://www.twitch.tv/bakedbeanstwitch/"><div class="widget"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Twitch_Glitch_Logo_Purple.svg" width="50" height="50"></div>
 </body>
 </html>
