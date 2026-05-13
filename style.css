@@ -8,6 +8,9 @@ body {
     background-color: #0a2579;
     color: #ee62e9;
 }
+h1, p {
+    text-shadow: 2px 2px 2px #4a4a4a;
+}
 .widget {
     border: 10px inset #095376;
     padding: 15px;
@@ -91,4 +94,16 @@ nav {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+.contact-logo {
+    padding: 5px;
+    height: 30px;
+}
+.contact-text {
+    font-size: 25px;
+}
+.contact-text:hover {
+    font-size: 30px;
+    transition: ease;
+    transition-duration: 0.3s;
 }
