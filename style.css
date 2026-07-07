@@ -32,6 +32,17 @@ h1, p {
     display: inline-block;
     vertical-align: top;
 }
+.donation-widget {
+    color: #00aaff;
+    background-color: #ffff7f;
+    border: 10px inset #095376;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 15px;
+
+    display: inline-block;
+    vertical-align: top;
+}
 .git-widget {
     color: #ff8800;
     background-color: #4a4a4a;
