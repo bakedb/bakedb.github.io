@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    background-image: url("bg.jpg");
+    background-image: url("images/bg.jpg");
 }
 body {
     font-family: "Patrick Hand", cursive;
@@ -90,7 +90,7 @@ nav {
 }
 .parallax {
   /* The image used */
-  background-image: url("bg.jpg");
+  background-image: url("images/bg.jpg");
 
   /* Full height */
   height: fit-content;
