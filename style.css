@@ -105,6 +105,12 @@ nav {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
+/*    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;*/
 }
 .contact-logo {
     padding: 5px;
